@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div id="box">TEST</div>
+
+		<div id="xhair">
+			<div id="v"></div>
+			<div id="h"></div>
+		</div>
+
+		<div id="origin">
+			<div id="v"></div>
+			<div id="h"></div>
+		</div>
+	</div>
+
+	<div id="info">
+		<div id="coords"></div>
+
+		<div id="control">
+			<div id="rotationValue"></div>
+			<input id="rotationRange" type="range" min="-360" max="360" value="0">
+
+			<div id="originXValue"></div>
+			<input id="originXRange" type="range" min="0" max="1000" value="200">
+
+			<div id="originYValue"></div>
+			<input id="originYRange" type="range" min="0" max="1000" value="100">
+
+			<div id="offsetXValue"></div>
+			<input id="offsetXRange" type="range" min="0" max="1000" value="100">
+
+			<div id="offsetYValue"></div>
+			<input id="offsetYRange" type="range" min="0" max="1000" value="200">
+		</div>
+
+		<div id="corners"></div>
+	<script src="test.js"></script>
+</body>
+</html>
