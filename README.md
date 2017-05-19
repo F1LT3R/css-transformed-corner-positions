@@ -8,13 +8,11 @@ How to get the corner positions of a DIV that has been transformed with CSS. For
 	transform-origin: 30px 30px;
 }
 ```
+**Demo:** https://f1lt3r.github.io/css-transformed-corner-positions/test.html
 
-## TL;DR (DEMO)
-https://f1lt3r.github.io/css-transformed-corner-positions/test.html
 
 [![Youtube Explanation](example-image.jpg)](https://www.youtube.com/watch?v=QfX86jkGFQk)
 [https://www.youtube.com/watch?v=QfX86jkGFQk](https://www.youtube.com/watch?v=QfX86jkGFQk)
-
 
 ## The Math
 
